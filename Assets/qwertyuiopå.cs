@@ -124,21 +124,21 @@ public class qwertyuiopå : MonoBehaviour
         }
         else
         {
-        //    print("Okänt dag");
-        //}
+            //    print("Okänt dag");
+            //}
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            print("Reload");
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            //0 1 2 3 4 5 6 7 8 9
-            MyIntValue = Random.Range(0, 10);
-            //0.032f, 10.000f
-            print(Random.Range(0f, 10f));
-            print("Lean left");
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                print("Reload");
+            }
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                //0 1 2 3 4 5 6 7 8 9
+                MyIntValue = Random.Range(0, 10);
+                //0.032f, 10.000f
+                print(Random.Range(0f, 10f));
+                print("Lean left");
+            }
         }
     }
-
-}
+}   
